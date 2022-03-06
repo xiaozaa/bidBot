@@ -24,4 +24,4 @@ node bidBot.js -target_contract 0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d -star
 
 eg. bit BAYC and MAYC's 3 and 4 with price 0.11E
 
-node bidBot.js -target_contract 0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d -start 3 -offset 2 -price 0.11
+node bidBot.js -target_contract 0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d 0x60e4d786628fea6478f785a6d7e704777c86a7c6 -start 3 -offset 2 -price 0.11
