@@ -1,0 +1,25 @@
+{
+  "name": "bitbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bidBot.js",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.0.3",
+    "ci": "^2.1.1",
+    "opensea-js": "^2.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaozaa/bidBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaozaa/bidBot/issues"
+  },
+  "homepage": "https://github.com/xiaozaa/bidBot#readme"
+}
