@@ -5,11 +5,11 @@ This is a tool to make offer to opensea asset
 Make sure you have installed the node js, version 14.xx.xx
 
 open your teminal:
-> git clone https://github.com/xiaozaa/bidBot.git
-> npm install
+\> git clone https://github.com/xiaozaa/bidBot.git
+\> npm install
 
 # create your secret file
-> cp secret_example.js secret.js
+\> cp secret_example.js secret.js
 fill up all reuiqred fields
 
 # run cmd
