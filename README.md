@@ -6,12 +6,12 @@ Make sure you have installed the node js, version 14.xx.xx
 
 open your teminal:
 
-cmd: git clone https://github.com/xiaozaa/bidBot.git 
+\>> git clone https://github.com/xiaozaa/bidBot.git 
 
-cmd: npm install
+\>> npm install
 
 # create your secret file
-cmd: cp secret_example.js secret.js
+\>> cp secret_example.js secret.js
 
 fill up all reuiqred fields
 
