@@ -34,7 +34,7 @@ const seaport = new OpenSeaPort(provider, {
 const bidBatch = async (Contract, start, offset) => {
     for (let i = start; i < start + offset; i++) {
         await bidOsOne(Contract, i.toString());
-        await sleep(100);
+        await sleep(5000);
     }
 }
 
@@ -49,7 +49,7 @@ const bidOsOne = async (Contract, Token_id) => {
         accountAddress: secret.ACCOUNT_ADDR,
         // Value of the offer, in units of the payment token (or wrapped ETH if none is specified):
         startAmount: price,
-        expirationTime: Math.round(Date.now() / 1000 + 60 * 60 * 24) // One day from now
+        expirationTime: Math.round(Date.now() / 1000 + 7200) // One day from now
     })
     console.log("Complete offer", Contract, Token_id);
 
