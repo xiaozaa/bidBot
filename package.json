@@ -1,27 +1,28 @@
 {
-  "name": "bitbot",
-  "version": "1.0.0",
-  "description": "",
-  "main": "bidBot.js",
-  "dependencies": {
-    "@truffle/hdwallet-provider": "^2.0.10-alpha.2",
-    "ci": "^2.1.1",
-    "opensea-js": "^4.0.3"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/xiaozaa/bidBot.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/xiaozaa/bidBot/issues"
-  },
-  "homepage": "https://github.com/xiaozaa/bidBot#readme",
-  "devDependencies": {
-    "pwned-hdwalletprovider": "^1.0.0"
-  }
+    "name": "nofeeos",
+    "version": "1.0.0",
+    "description": "",
+    "main": "listEncode.js",
+    "dependencies": {
+        "@truffle/hdwallet-provider": "^2.0.10-alpha.2",
+        "ci": "^2.1.1",
+        "opensea-js": "git+https://github.com/nftblackmagic/opensea-js.git",
+        "web3": "^1.7.4"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nftblackmagic/nofeeOS.git"
+    },
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/nftblackmagic/issues"
+    },
+    "homepage": "https://github.com/nftblackmagic#readme",
+    "devDependencies": {
+        "pwned-hdwalletprovider": "^1.0.0"
+    }
 }
